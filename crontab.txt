@@ -1,0 +1,9 @@
+# Programare zilnica boti - ore Romania (UTC+3)
+# Charlie = TikTok search | India = TikTok For You
+03 07 * * * bash /home/corban/charlie/run_charlie.sh >> /home/corban/charlie/cron_charlie.log 2>&1
+30 08 * * * bash /home/corban/charlie/run_india.sh >> /home/corban/charlie/cron_india.log 2>&1
+42 10 * * * bash /home/corban/charlie/run_charlie.sh >> /home/corban/charlie/cron_charlie.log 2>&1
+41 12 * * * bash /home/corban/charlie/run_india.sh >> /home/corban/charlie/cron_india.log 2>&1
+33 14 * * * bash /home/corban/charlie/run_charlie.sh >> /home/corban/charlie/cron_charlie.log 2>&1
+02 17 * * * bash /home/corban/charlie/run_india.sh >> /home/corban/charlie/cron_india.log 2>&1
+43 19 * * * bash /home/corban/charlie/run_charlie.sh >> /home/corban/charlie/cron_charlie.log 2>&1
